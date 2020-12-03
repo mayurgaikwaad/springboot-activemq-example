@@ -15,7 +15,8 @@ import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 @EnableJms
 @Configuration
 public class JmsConfig {
-	
+
+	//define
 	@Bean
 	public Queue queue() {
 		return new ActiveMQQueue("inmemory.activemq.queue");
